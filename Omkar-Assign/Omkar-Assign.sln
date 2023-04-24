@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omkar-Assign", "Omkar-Assign\Omkar-Assign.csproj", "{FA898FDF-6B3E-44E4-BF2D-60B29B3571D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA898FDF-6B3E-44E4-BF2D-60B29B3571D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA898FDF-6B3E-44E4-BF2D-60B29B3571D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA898FDF-6B3E-44E4-BF2D-60B29B3571D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA898FDF-6B3E-44E4-BF2D-60B29B3571D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2ECA607-3133-4429-A0D0-CD9A3324150F}
+	EndGlobalSection
+EndGlobal
