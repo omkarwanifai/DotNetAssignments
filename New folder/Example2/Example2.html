@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Validate Me!!!</h1>
+    <hr>
+    <center>
+    <div>
+        <Table>
+            <tr>
+                <td>Username(6-8 characters)</td>
+                <td><input type="text" id="uname"></td>
+            </tr>
+            <tr>
+                <td>Pin</td>
+                <td>
+                    <input type="text" id="pin"><span id="pinvalidate" style="color:red"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>States</td>
+                <td>
+                    <select id="options">
+                        <option selected disabled>Select State</option>
+                        <option>Maharashtra</option>
+                        <option>Gujrat</option>
+                        <option>Karnataka</option>
+                        <option>UP</option>
+                    </select>
+                </td>
+            </tr>
+        </Table><br>
+        <button onclick="saveForm()" id="btn">Check Form</button>
+        <input type="checkbox" value="Pin Required" id="check">Validate Pin
+    </div><br>
+    <div>
+        <input type="radio" name="ff">Milk <br>
+        <input type="radio" name="ff">Butter <br>
+        <input type="radio" name="ff">Cheese <br>
+    </div>
+    </center>
+</body>
+</html>

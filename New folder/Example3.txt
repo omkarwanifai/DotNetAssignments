@@ -1,0 +1,17 @@
+
+create table employeeMan
+(
+	empId int primary key identity,
+	empName varchar(20),
+	manId int not null
+)
+
+select * from employeeMan;
+
+insert into employeeMan values('Rohit',3);
+insert into employeeMan values('Sangeeta',5);
+insert into employeeMan values('Sanjay',5);
+insert into employeeMan values('Arun',3);
+insert into employeeMan values('Zaheer',1);
+
+select A.empName ,B.empName from employeeMan A,employeeMan B where B.empId=A.manId order by A.empName; 
