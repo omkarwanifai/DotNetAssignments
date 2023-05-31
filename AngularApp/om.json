@@ -1,0 +1,43 @@
+{
+    "Friends":[
+      {
+        "id": 1,
+        "ItemName": "Vada Pav",
+        "price" : 20,
+        "ItemDescription" : "Famous Maharashtrian Food",
+        "imageurl": "assets/Images/vadapav.jpg"
+      },
+
+      {
+        "id": 2,
+        "ItemName": "Misal Pav",
+        "price": 70,
+        "ItemDescription": "Famous Maharashtrian Food",
+        "imageurl": "assets/Images/misalpav.jpg"
+      },
+
+      {
+        "id": 3,
+        "ItemName": "Idli",
+        "price": 20,
+        "ItemDescription": "South Indian Food",
+        "imageurl": "assets/Images/idli.jpg"
+      },
+
+        {
+          "id": 4,
+          "ItemName": "Dosa",
+          "price": 50,
+          "ItemDescription": "South Indian Food",
+          "imageurl": "assets/Images/dosa.jpg"
+        },
+
+        {
+          "id": 5,
+          "ItemName": "Poha",
+          "price": 15,
+          "ItemDescription": "Maharashtrian Breakfast",
+          "imageurl": "assets/Images/poha.jpg"
+        }
+    ]
+}
